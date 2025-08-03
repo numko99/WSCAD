@@ -4,9 +4,9 @@ using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using System.IO;
 using WSCAD.Core;
-using WSCAD_Code_Challenge.Drawing;
+using WSCAD.Ui.Drawing;
 
-namespace WSCAD_Code_Challenge.ViewModel
+namespace WSCAD.Ui.ViewModel
 {
     public partial class MainViewModel : ObservableObject
     {

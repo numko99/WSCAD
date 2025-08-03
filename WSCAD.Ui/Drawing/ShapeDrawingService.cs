@@ -3,7 +3,7 @@ using System.Windows.Media;
 using WSCAD.Core;
 using WSCAD.Core.Models;
 
-namespace WSCAD_Code_Challenge.Drawing
+namespace WSCAD.Ui.Drawing
 {
     public class ShapeDrawingService : IShapeDrawingService
     {

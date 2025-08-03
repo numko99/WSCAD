@@ -2,7 +2,7 @@
 using System.Windows.Media;
 using WSCAD.Core;
 
-namespace WSCAD_Code_Challenge.Drawing
+namespace WSCAD.Ui.Drawing
 {
     public class LineRenderer : IShapeRenderer
     {

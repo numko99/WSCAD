@@ -1,7 +1,7 @@
 ﻿using System.Windows.Controls;
 using WSCAD.Core;
 
-namespace WSCAD_Code_Challenge.Drawing
+namespace WSCAD.Ui.Drawing
 {
     public interface IShapeDrawingService
     {

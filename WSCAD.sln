@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.13.35931.197
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WSCAD.Ui", "WSCAD Code Challenge\WSCAD.Ui.csproj", "{976077E4-4C3F-4510-8C83-5039F901579E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WSCAD.Ui", "WSCAD.Ui\WSCAD.Ui.csproj", "{976077E4-4C3F-4510-8C83-5039F901579E}"
 	ProjectSection(ProjectDependencies) = postProject
 		{6056AB72-D0D9-4ED5-A14B-170DD03F7A3C} = {6056AB72-D0D9-4ED5-A14B-170DD03F7A3C}
 	EndProjectSection

@@ -2,10 +2,10 @@
 using System.Windows;
 using WSCAD.Core;
 using WSCAD.Infrastructure;
-using WSCAD_Code_Challenge.Drawing;
-using WSCAD_Code_Challenge.ViewModel;
+using WSCAD.Ui.Drawing;
+using WSCAD.Ui.ViewModel;
 
-namespace WSCAD_Code_Challenge
+namespace WSCAD.Ui
 {
     /// <summary>
     /// Interaction logic for App.xaml

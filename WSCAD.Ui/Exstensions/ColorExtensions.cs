@@ -1,6 +1,6 @@
 ﻿using WSCAD.Core;
 
-namespace WSCAD_Code_Challenge
+namespace WSCAD.Ui
 {
     public static class ColorExtensions
     {

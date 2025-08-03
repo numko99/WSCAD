@@ -9,10 +9,10 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
-using WSCAD_Code_Challenge.Drawing;
-using WSCAD_Code_Challenge.ViewModel;
+using WSCAD.Ui.Drawing;
+using WSCAD.Ui.ViewModel;
 
-namespace WSCAD_Code_Challenge
+namespace WSCAD.Ui
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml

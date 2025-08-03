@@ -4,7 +4,7 @@ using System.Windows.Shapes;
 using WSCAD.Core;
 using Shape = WSCAD.Core.Shape;
 
-namespace WSCAD_Code_Challenge.Drawing
+namespace WSCAD.Ui.Drawing
 {
     public class TriangleRenderer : IShapeRenderer
     {
