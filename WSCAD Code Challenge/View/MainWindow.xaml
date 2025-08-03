@@ -1,0 +1,18 @@
+﻿<Window x:Class="WSCAD_Code_Challenge.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Shape Renderer" Height="600" Width="900">
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Button Content="Import file" Command="{Binding LoadFileCommand}"
+                Height="30" Grid.Row="0" Margin="0,0,0,10"/>
+
+        <Border Grid.Row="1" BorderBrush="LightGray" BorderThickness="1" Background="White">
+            <Canvas Width="Auto" Height="Auto" x:Name="CanvasMain" />
+        </Border>
+    </Grid>
+</Window>

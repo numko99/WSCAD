@@ -1,0 +1,35 @@
+﻿using Microsoft.Win32;
+using System.Text;
+using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Data;
+using System.Windows.Documents;
+using System.Windows.Input;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
+using System.Windows.Shapes;
+using WSCAD_Code_Challenge.Drawing;
+using WSCAD_Code_Challenge.ViewModel;
+
+namespace WSCAD_Code_Challenge
+{
+    /// <summary>
+    /// Interaction logic for MainWindow.xaml
+    /// </summary>
+    public partial class MainWindow : Window
+    {
+        private readonly IShapeDrawingService _shapeDrawingService;
+        public MainWindow(MainViewModel viewModel, IShapeDrawingService drawingService)
+        {
+            InitializeComponent();
+            DataContext = viewModel;
+
+            _shapeDrawingService = drawingService;
+            viewModel.RequestDrawShapes += () =>
+            {
+                _shapeDrawingService.DrawShapes(viewModel.Shapes, this.CanvasMain);
+            };
+        }
+    }
+}
